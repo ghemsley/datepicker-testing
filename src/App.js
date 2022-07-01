@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import { DayPicker } from 'react-day-picker';
+import 'react-day-picker/dist/style.css';
+
+function Component() {
+  return <DayPicker />;
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Component/>
   );
 }
 
